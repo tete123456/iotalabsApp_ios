@@ -1,0 +1,1144 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		210E7E8F277C550700B68B94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 210E7E8E277C550700B68B94 /* GoogleService-Info.plist */; };
+		211C3EE329E43BC600FEB8B4 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 211C3EE229E43BC600FEB8B4 /* .gitignore */; };
+		211FF2312755F9A500AC1C21 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211FF2302755F9A500AC1C21 /* Person.swift */; };
+		212CD7C5277C5E1A009DEEB5 /* Pods_Lotalabs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCC6227FF431718E6D0AC41 /* Pods_Lotalabs.framework */; };
+		212CD7C8277C5E99009DEEB5 /* Pods_Lotalabs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCC6227FF431718E6D0AC41 /* Pods_Lotalabs.framework */; };
+		212EA007278ADC8A0081113C /* pokemon.png in Resources */ = {isa = PBXBuildFile; fileRef = 212EA006278ADC8A0081113C /* pokemon.png */; };
+		2150101F2746BB6400D14090 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2150101E2746BB6400D14090 /* AppDelegate.swift */; };
+		215010212746BB6400D14090 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215010202746BB6400D14090 /* SceneDelegate.swift */; };
+		215010262746BB6400D14090 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215010242746BB6400D14090 /* Main.storyboard */; };
+		215010282746BB6500D14090 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 215010272746BB6500D14090 /* Assets.xcassets */; };
+		2150102B2746BB6500D14090 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 215010292746BB6500D14090 /* LaunchScreen.storyboard */; };
+		215010362746BB6500D14090 /* LotalabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215010352746BB6500D14090 /* LotalabsTests.swift */; };
+		215010402746BB6500D14090 /* LotalabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2150103F2746BB6500D14090 /* LotalabsUITests.swift */; };
+		215010422746BB6500D14090 /* LotalabsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 215010412746BB6500D14090 /* LotalabsUITestsLaunchTests.swift */; };
+		21808840275F9867000A1FC2 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2180883F275F9867000A1FC2 /* SettingViewController.swift */; };
+		218DA0DC27B5668D00E1FC10 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 218DA0DB27B5668D00E1FC10 /* logo.png */; };
+		21B0E6632747FC1B0081AB4E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0E6622747FC1B0081AB4E /* MapViewController.swift */; };
+		21B0E6652747FC300081AB4E /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B0E6642747FC300081AB4E /* FriendViewController.swift */; };
+		21B2EEE02746C4CB008D1E50 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B2EEDF2746C4CB008D1E50 /* MyTableViewCell.swift */; };
+		21D64A8B27513087002C7BF8 /* FlotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D64A8A27513086002C7BF8 /* FlotingViewController.swift */; };
+		21DD9504277CA76B004D6B05 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DD9503277CA76B004D6B05 /* NotificationService.swift */; };
+		21DD9508277CA76B004D6B05 /* NotiService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 21DD9501277CA76B004D6B05 /* NotiService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		21E3D9AE2780A77600E6285A /* AR.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21E3D9AD2780A77600E6285A /* AR.storyboard */; };
+		21E3D9B02780A78F00E6285A /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E3D9AF2780A78F00E6285A /* ARViewController.swift */; };
+		21E3D9B32780ACB200E6285A /* Test_AR.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 21E3D9B22780AB8D00E6285A /* Test_AR.rcproject */; };
+		21E3D9B52780ACB500E6285A /* Test_AR.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 21E3D9B22780AB8D00E6285A /* Test_AR.rcproject */; };
+		21ED554E2765152C007340DF /* me.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ED554D2765152C007340DF /* me.swift */; };
+		21ED5550276516D1007340DF /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21ED554F276516D1007340DF /* Onboarding.storyboard */; };
+		21ED55532765178E007340DF /* MyNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ED55522765178E007340DF /* MyNameViewController.swift */; };
+		21ED5555276519A1007340DF /* CheckFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ED5554276519A1007340DF /* CheckFirst.swift */; };
+		21ED555727651A20007340DF /* setRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ED555627651A20007340DF /* setRootViewController.swift */; };
+		8AB4E1F12ED406059A926B4C /* Pods_LotalabsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19640150F6A7B762920A009F /* Pods_LotalabsTests.framework */; };
+		8CA736C2BD397CB7C4B07AB7 /* Pods_Lotalabs_LotalabsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5F52AB34DE333D4F04E642 /* Pods_Lotalabs_LotalabsUITests.framework */; };
+		A21A27BE276D5B6E00B20ED9 /* ReadQrController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A27BD276D5B6E00B20ED9 /* ReadQrController.swift */; };
+		A21A27C0276D5BAA00B20ED9 /* ReadQr.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21A27BF276D5BAA00B20ED9 /* ReadQr.storyboard */; };
+		A224CA772762636300B32626 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = A224CA762762636300B32626 /* Value.swift */; };
+		A224CA792762860E00B32626 /* ProgressDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A224CA782762860E00B32626 /* ProgressDialogView.swift */; };
+		A2909987275392A800449071 /* CreateQrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2909986275392A800449071 /* CreateQrViewController.swift */; };
+		A2909989275392CF00449071 /* CreateQr.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2909988275392CF00449071 /* CreateQr.storyboard */; };
+		A290998B2753945800449071 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A290998A2753945800449071 /* QRCodeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		215010322746BB6500D14090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 215010132746BB6400D14090 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2150101A2746BB6400D14090;
+			remoteInfo = Lotalabs;
+		};
+		2150103C2746BB6500D14090 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 215010132746BB6400D14090 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2150101A2746BB6400D14090;
+			remoteInfo = Lotalabs;
+		};
+		21DD9506277CA76B004D6B05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 215010132746BB6400D14090 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DD9500277CA76B004D6B05;
+			remoteInfo = NotiService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		21DD94ED277C9A91004D6B05 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				21DD9508277CA76B004D6B05 /* NotiService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		19640150F6A7B762920A009F /* Pods_LotalabsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LotalabsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F49996DE07AFC9A232C5880 /* Pods-Lotalabs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lotalabs.release.xcconfig"; path = "Target Support Files/Pods-Lotalabs/Pods-Lotalabs.release.xcconfig"; sourceTree = "<group>"; };
+		210E7E8E277C550700B68B94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		211C3EE229E43BC600FEB8B4 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		211FF2302755F9A500AC1C21 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		212CD7B4277C5BC6009DEEB5 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		212CD7BA277C5BFF009DEEB5 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		212CD7C1277C5D97009DEEB5 /* FirebaseInAppMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInAppMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		212EA006278ADC8A0081113C /* pokemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pokemon.png; path = ../../pokemon.png; sourceTree = "<group>"; };
+		2150101B2746BB6400D14090 /* Lotalabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lotalabs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2150101E2746BB6400D14090 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		215010202746BB6400D14090 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		215010252746BB6400D14090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		215010272746BB6500D14090 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2150102A2746BB6500D14090 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2150102C2746BB6500D14090 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		215010312746BB6500D14090 /* LotalabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotalabsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		215010352746BB6500D14090 /* LotalabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotalabsTests.swift; sourceTree = "<group>"; };
+		2150103B2746BB6500D14090 /* LotalabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LotalabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2150103F2746BB6500D14090 /* LotalabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotalabsUITests.swift; sourceTree = "<group>"; };
+		215010412746BB6500D14090 /* LotalabsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LotalabsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2180883F275F9867000A1FC2 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		218DA0DB27B5668D00E1FC10 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../logo.png; sourceTree = "<group>"; };
+		21A030CE2779F817007600A2 /* Lotalabs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lotalabs.entitlements; sourceTree = "<group>"; };
+		21B0E6622747FC1B0081AB4E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		21B0E6642747FC300081AB4E /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		21B2EEDF2746C4CB008D1E50 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		21D64A8A27513086002C7BF8 /* FlotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlotingViewController.swift; sourceTree = "<group>"; };
+		21DD9501277CA76B004D6B05 /* NotiService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotiService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		21DD9503277CA76B004D6B05 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		21DD9505277CA76B004D6B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E3D9AD2780A77600E6285A /* AR.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AR.storyboard; sourceTree = "<group>"; };
+		21E3D9AF2780A78F00E6285A /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		21E3D9B22780AB8D00E6285A /* Test_AR.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Test_AR.rcproject; sourceTree = "<group>"; };
+		21ED554D2765152C007340DF /* me.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = me.swift; sourceTree = "<group>"; };
+		21ED554F276516D1007340DF /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		21ED55522765178E007340DF /* MyNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNameViewController.swift; sourceTree = "<group>"; };
+		21ED5554276519A1007340DF /* CheckFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckFirst.swift; sourceTree = "<group>"; };
+		21ED555627651A20007340DF /* setRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setRootViewController.swift; sourceTree = "<group>"; };
+		5304290CE50DBC9E9AF772EF /* Pods-LotalabsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotalabsTests.debug.xcconfig"; path = "Target Support Files/Pods-LotalabsTests/Pods-LotalabsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D5F52AB34DE333D4F04E642 /* Pods_Lotalabs_LotalabsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lotalabs_LotalabsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		610298CEE4C242ED155FD87E /* Pods-Lotalabs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lotalabs.debug.xcconfig"; path = "Target Support Files/Pods-Lotalabs/Pods-Lotalabs.debug.xcconfig"; sourceTree = "<group>"; };
+		95C79871D053401F268B0E87 /* Pods-Lotalabs-LotalabsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lotalabs-LotalabsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lotalabs-LotalabsUITests/Pods-Lotalabs-LotalabsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A21A27BD276D5B6E00B20ED9 /* ReadQrController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadQrController.swift; sourceTree = "<group>"; };
+		A21A27BF276D5BAA00B20ED9 /* ReadQr.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReadQr.storyboard; sourceTree = "<group>"; };
+		A224CA762762636300B32626 /* Value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
+		A224CA782762860E00B32626 /* ProgressDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressDialogView.swift; sourceTree = "<group>"; };
+		A2909986275392A800449071 /* CreateQrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateQrViewController.swift; sourceTree = "<group>"; };
+		A2909988275392CF00449071 /* CreateQr.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CreateQr.storyboard; sourceTree = "<group>"; };
+		A290998A2753945800449071 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		D42AE76EC4A44032440BAD31 /* Pods-LotalabsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LotalabsTests.release.xcconfig"; path = "Target Support Files/Pods-LotalabsTests/Pods-LotalabsTests.release.xcconfig"; sourceTree = "<group>"; };
+		DCCC6227FF431718E6D0AC41 /* Pods_Lotalabs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lotalabs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA02724875FDEFA19E01EED9 /* Pods-Lotalabs-LotalabsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lotalabs-LotalabsUITests.release.xcconfig"; path = "Target Support Files/Pods-Lotalabs-LotalabsUITests/Pods-Lotalabs-LotalabsUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		215010182746BB6400D14090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212CD7C8277C5E99009DEEB5 /* Pods_Lotalabs.framework in Frameworks */,
+				212CD7C5277C5E1A009DEEB5 /* Pods_Lotalabs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2150102E2746BB6500D14090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AB4E1F12ED406059A926B4C /* Pods_LotalabsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215010382746BB6500D14090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA736C2BD397CB7C4B07AB7 /* Pods_Lotalabs_LotalabsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DD94FE277CA76B004D6B05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		211FF2342756003F00AC1C21 /* TabBar  */ = {
+			isa = PBXGroup;
+			children = (
+				21D64A8A27513086002C7BF8 /* FlotingViewController.swift */,
+				215010242746BB6400D14090 /* Main.storyboard */,
+				21B2EEDF2746C4CB008D1E50 /* MyTableViewCell.swift */,
+				21B0E6622747FC1B0081AB4E /* MapViewController.swift */,
+				21B0E6642747FC300081AB4E /* FriendViewController.swift */,
+				2180883F275F9867000A1FC2 /* SettingViewController.swift */,
+			);
+			path = "TabBar ";
+			sourceTree = "<group>";
+		};
+		215010122746BB6400D14090 = {
+			isa = PBXGroup;
+			children = (
+				211C3EE229E43BC600FEB8B4 /* .gitignore */,
+				2150101D2746BB6400D14090 /* Lotalabs */,
+				215010342746BB6500D14090 /* LotalabsTests */,
+				2150103E2746BB6500D14090 /* LotalabsUITests */,
+				21DD9502277CA76B004D6B05 /* NotiService */,
+				2150101C2746BB6400D14090 /* Products */,
+				D29277734850FB6A9F482B16 /* Pods */,
+				7BF0A341F7B9B9E18F997E35 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2150101C2746BB6400D14090 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2150101B2746BB6400D14090 /* Lotalabs.app */,
+				215010312746BB6500D14090 /* LotalabsTests.xctest */,
+				2150103B2746BB6500D14090 /* LotalabsUITests.xctest */,
+				21DD9501277CA76B004D6B05 /* NotiService.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2150101D2746BB6400D14090 /* Lotalabs */ = {
+			isa = PBXGroup;
+			children = (
+				212EA006278ADC8A0081113C /* pokemon.png */,
+				218DA0DB27B5668D00E1FC10 /* logo.png */,
+				21A030CE2779F817007600A2 /* Lotalabs.entitlements */,
+				A224CA782762860E00B32626 /* ProgressDialogView.swift */,
+				A224CA762762636300B32626 /* Value.swift */,
+				2150101E2746BB6400D14090 /* AppDelegate.swift */,
+				211FF2302755F9A500AC1C21 /* Person.swift */,
+				210E7E8E277C550700B68B94 /* GoogleService-Info.plist */,
+				215010202746BB6400D14090 /* SceneDelegate.swift */,
+				215010272746BB6500D14090 /* Assets.xcassets */,
+				215010292746BB6500D14090 /* LaunchScreen.storyboard */,
+				21E3D9B12780A79500E6285A /* AR */,
+				A21A27C1276D6FA800B20ED9 /* ReadQr */,
+				A290998527538E9C00449071 /* CreateQr */,
+				211FF2342756003F00AC1C21 /* TabBar  */,
+				2150102C2746BB6500D14090 /* Info.plist */,
+				21ED55512765175E007340DF /* Onboard */,
+			);
+			path = Lotalabs;
+			sourceTree = "<group>";
+		};
+		215010342746BB6500D14090 /* LotalabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				215010352746BB6500D14090 /* LotalabsTests.swift */,
+			);
+			path = LotalabsTests;
+			sourceTree = "<group>";
+		};
+		2150103E2746BB6500D14090 /* LotalabsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2150103F2746BB6500D14090 /* LotalabsUITests.swift */,
+				215010412746BB6500D14090 /* LotalabsUITestsLaunchTests.swift */,
+			);
+			path = LotalabsUITests;
+			sourceTree = "<group>";
+		};
+		21DD9502277CA76B004D6B05 /* NotiService */ = {
+			isa = PBXGroup;
+			children = (
+				21DD9503277CA76B004D6B05 /* NotificationService.swift */,
+				21DD9505277CA76B004D6B05 /* Info.plist */,
+			);
+			path = NotiService;
+			sourceTree = "<group>";
+		};
+		21E3D9B12780A79500E6285A /* AR */ = {
+			isa = PBXGroup;
+			children = (
+				21E3D9AD2780A77600E6285A /* AR.storyboard */,
+				21E3D9AF2780A78F00E6285A /* ARViewController.swift */,
+				21E3D9B22780AB8D00E6285A /* Test_AR.rcproject */,
+			);
+			path = AR;
+			sourceTree = "<group>";
+		};
+		21ED55512765175E007340DF /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				21ED554D2765152C007340DF /* me.swift */,
+				21ED554F276516D1007340DF /* Onboarding.storyboard */,
+				21ED55522765178E007340DF /* MyNameViewController.swift */,
+				21ED5554276519A1007340DF /* CheckFirst.swift */,
+				21ED555627651A20007340DF /* setRootViewController.swift */,
+			);
+			path = Onboard;
+			sourceTree = "<group>";
+		};
+		7BF0A341F7B9B9E18F997E35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				212CD7C1277C5D97009DEEB5 /* FirebaseInAppMessaging.framework */,
+				212CD7BA277C5BFF009DEEB5 /* PushKit.framework */,
+				212CD7B4277C5BC6009DEEB5 /* FirebaseCore.framework */,
+				DCCC6227FF431718E6D0AC41 /* Pods_Lotalabs.framework */,
+				5D5F52AB34DE333D4F04E642 /* Pods_Lotalabs_LotalabsUITests.framework */,
+				19640150F6A7B762920A009F /* Pods_LotalabsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A21A27C1276D6FA800B20ED9 /* ReadQr */ = {
+			isa = PBXGroup;
+			children = (
+				A21A27BD276D5B6E00B20ED9 /* ReadQrController.swift */,
+				A21A27BF276D5BAA00B20ED9 /* ReadQr.storyboard */,
+			);
+			path = ReadQr;
+			sourceTree = "<group>";
+		};
+		A290998527538E9C00449071 /* CreateQr */ = {
+			isa = PBXGroup;
+			children = (
+				A2909986275392A800449071 /* CreateQrViewController.swift */,
+				A2909988275392CF00449071 /* CreateQr.storyboard */,
+				A290998A2753945800449071 /* QRCodeView.swift */,
+			);
+			path = CreateQr;
+			sourceTree = "<group>";
+		};
+		D29277734850FB6A9F482B16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				610298CEE4C242ED155FD87E /* Pods-Lotalabs.debug.xcconfig */,
+				1F49996DE07AFC9A232C5880 /* Pods-Lotalabs.release.xcconfig */,
+				95C79871D053401F268B0E87 /* Pods-Lotalabs-LotalabsUITests.debug.xcconfig */,
+				FA02724875FDEFA19E01EED9 /* Pods-Lotalabs-LotalabsUITests.release.xcconfig */,
+				5304290CE50DBC9E9AF772EF /* Pods-LotalabsTests.debug.xcconfig */,
+				D42AE76EC4A44032440BAD31 /* Pods-LotalabsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2150101A2746BB6400D14090 /* Lotalabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215010452746BB6500D14090 /* Build configuration list for PBXNativeTarget "Lotalabs" */;
+			buildPhases = (
+				2197678C698E4D5919A96224 /* [CP] Check Pods Manifest.lock */,
+				215010172746BB6400D14090 /* Sources */,
+				215010182746BB6400D14090 /* Frameworks */,
+				215010192746BB6400D14090 /* Resources */,
+				6C78E06DF2E0880A68910785 /* [CP] Embed Pods Frameworks */,
+				8CDC459762DA3D8BF5BF3672 /* [CP] Copy Pods Resources */,
+				21DD94ED277C9A91004D6B05 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21DD9507277CA76B004D6B05 /* PBXTargetDependency */,
+			);
+			name = Lotalabs;
+			packageProductDependencies = (
+			);
+			productName = Lotalabs;
+			productReference = 2150101B2746BB6400D14090 /* Lotalabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		215010302746BB6500D14090 /* LotalabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 215010482746BB6500D14090 /* Build configuration list for PBXNativeTarget "LotalabsTests" */;
+			buildPhases = (
+				5A7B5A3DB2C2A1358D13DBEC /* [CP] Check Pods Manifest.lock */,
+				2150102D2746BB6500D14090 /* Sources */,
+				2150102E2746BB6500D14090 /* Frameworks */,
+				2150102F2746BB6500D14090 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215010332746BB6500D14090 /* PBXTargetDependency */,
+			);
+			name = LotalabsTests;
+			productName = LotalabsTests;
+			productReference = 215010312746BB6500D14090 /* LotalabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2150103A2746BB6500D14090 /* LotalabsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2150104B2746BB6500D14090 /* Build configuration list for PBXNativeTarget "LotalabsUITests" */;
+			buildPhases = (
+				6BCA6605B158CCC2D46D51A0 /* [CP] Check Pods Manifest.lock */,
+				215010372746BB6500D14090 /* Sources */,
+				215010382746BB6500D14090 /* Frameworks */,
+				215010392746BB6500D14090 /* Resources */,
+				B6CA729BB7637466563A5D0A /* [CP] Embed Pods Frameworks */,
+				0DE59BBA2BD0141ADBAEFE2D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2150103D2746BB6500D14090 /* PBXTargetDependency */,
+			);
+			name = LotalabsUITests;
+			productName = LotalabsUITests;
+			productReference = 2150103B2746BB6500D14090 /* LotalabsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		21DD9500277CA76B004D6B05 /* NotiService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21DD9509277CA76B004D6B05 /* Build configuration list for PBXNativeTarget "NotiService" */;
+			buildPhases = (
+				21DD94FD277CA76B004D6B05 /* Sources */,
+				21DD94FE277CA76B004D6B05 /* Frameworks */,
+				21DD94FF277CA76B004D6B05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotiService;
+			productName = NotiService;
+			productReference = 21DD9501277CA76B004D6B05 /* NotiService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		215010132746BB6400D14090 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					2150101A2746BB6400D14090 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					215010302746BB6500D14090 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 2150101A2746BB6400D14090;
+					};
+					2150103A2746BB6500D14090 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 2150101A2746BB6400D14090;
+					};
+					21DD9500277CA76B004D6B05 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 215010162746BB6400D14090 /* Build configuration list for PBXProject "Lotalabs" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 215010122746BB6400D14090;
+			packageReferences = (
+			);
+			productRefGroup = 2150101C2746BB6400D14090 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2150101A2746BB6400D14090 /* Lotalabs */,
+				215010302746BB6500D14090 /* LotalabsTests */,
+				2150103A2746BB6500D14090 /* LotalabsUITests */,
+				21DD9500277CA76B004D6B05 /* NotiService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		215010192746BB6400D14090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2150102B2746BB6500D14090 /* LaunchScreen.storyboard in Resources */,
+				A2909989275392CF00449071 /* CreateQr.storyboard in Resources */,
+				21ED5550276516D1007340DF /* Onboarding.storyboard in Resources */,
+				A21A27C0276D5BAA00B20ED9 /* ReadQr.storyboard in Resources */,
+				211C3EE329E43BC600FEB8B4 /* .gitignore in Resources */,
+				212EA007278ADC8A0081113C /* pokemon.png in Resources */,
+				215010282746BB6500D14090 /* Assets.xcassets in Resources */,
+				218DA0DC27B5668D00E1FC10 /* logo.png in Resources */,
+				215010262746BB6400D14090 /* Main.storyboard in Resources */,
+				210E7E8F277C550700B68B94 /* GoogleService-Info.plist in Resources */,
+				21E3D9AE2780A77600E6285A /* AR.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2150102F2746BB6500D14090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215010392746BB6500D14090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DD94FF277CA76B004D6B05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DE59BBA2BD0141ADBAEFE2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lotalabs-LotalabsUITests/Pods-Lotalabs-LotalabsUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lotalabs-LotalabsUITests/Pods-Lotalabs-LotalabsUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lotalabs-LotalabsUITests/Pods-Lotalabs-LotalabsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2197678C698E4D5919A96224 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lotalabs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A7B5A3DB2C2A1358D13DBEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LotalabsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BCA6605B158CCC2D46D51A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lotalabs-LotalabsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C78E06DF2E0880A68910785 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lotalabs/Pods-Lotalabs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lotalabs/Pods-Lotalabs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lotalabs/Pods-Lotalabs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CDC459762DA3D8BF5BF3672 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lotalabs/Pods-Lotalabs-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lotalabs/Pods-Lotalabs-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lotalabs/Pods-Lotalabs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6CA729BB7637466563A5D0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lotalabs-LotalabsUITests/Pods-Lotalabs-LotalabsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lotalabs-LotalabsUITests/Pods-Lotalabs-LotalabsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lotalabs-LotalabsUITests/Pods-Lotalabs-LotalabsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		215010172746BB6400D14090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A21A27BE276D5B6E00B20ED9 /* ReadQrController.swift in Sources */,
+				21D64A8B27513087002C7BF8 /* FlotingViewController.swift in Sources */,
+				21ED555727651A20007340DF /* setRootViewController.swift in Sources */,
+				A290998B2753945800449071 /* QRCodeView.swift in Sources */,
+				21ED55532765178E007340DF /* MyNameViewController.swift in Sources */,
+				21E3D9B32780ACB200E6285A /* Test_AR.rcproject in Sources */,
+				21808840275F9867000A1FC2 /* SettingViewController.swift in Sources */,
+				A2909987275392A800449071 /* CreateQrViewController.swift in Sources */,
+				21ED554E2765152C007340DF /* me.swift in Sources */,
+				21B0E6652747FC300081AB4E /* FriendViewController.swift in Sources */,
+				A224CA792762860E00B32626 /* ProgressDialogView.swift in Sources */,
+				211FF2312755F9A500AC1C21 /* Person.swift in Sources */,
+				A224CA772762636300B32626 /* Value.swift in Sources */,
+				2150101F2746BB6400D14090 /* AppDelegate.swift in Sources */,
+				21E3D9B02780A78F00E6285A /* ARViewController.swift in Sources */,
+				21B2EEE02746C4CB008D1E50 /* MyTableViewCell.swift in Sources */,
+				21ED5555276519A1007340DF /* CheckFirst.swift in Sources */,
+				21B0E6632747FC1B0081AB4E /* MapViewController.swift in Sources */,
+				215010212746BB6400D14090 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2150102D2746BB6500D14090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215010362746BB6500D14090 /* LotalabsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		215010372746BB6500D14090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215010422746BB6500D14090 /* LotalabsUITestsLaunchTests.swift in Sources */,
+				215010402746BB6500D14090 /* LotalabsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21DD94FD277CA76B004D6B05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DD9504277CA76B004D6B05 /* NotificationService.swift in Sources */,
+				21E3D9B52780ACB500E6285A /* Test_AR.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		215010332746BB6500D14090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2150101A2746BB6400D14090 /* Lotalabs */;
+			targetProxy = 215010322746BB6500D14090 /* PBXContainerItemProxy */;
+		};
+		2150103D2746BB6500D14090 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2150101A2746BB6400D14090 /* Lotalabs */;
+			targetProxy = 2150103C2746BB6500D14090 /* PBXContainerItemProxy */;
+		};
+		21DD9507277CA76B004D6B05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21DD9500277CA76B004D6B05 /* NotiService */;
+			targetProxy = 21DD9506277CA76B004D6B05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		215010242746BB6400D14090 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				215010252746BB6400D14090 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		215010292746BB6500D14090 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2150102A2746BB6500D14090 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		215010432746BB6500D14090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		215010442746BB6500D14090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		215010462746BB6500D14090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 610298CEE4C242ED155FD87E /* Pods-Lotalabs.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lotalabs/Lotalabs.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F35N7Y2332;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lotalabs/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lts01.Lotalabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = lota_profile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VAILD_ARCHS = "armv7, armv7s, arm64, arm64e, x86_64";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Debug;
+		};
+		215010472746BB6500D14090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F49996DE07AFC9A232C5880 /* Pods-Lotalabs.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lotalabs/Lotalabs.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F35N7Y2332;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lotalabs/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lts01.Lotalabs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = lota_profile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VAILD_ARCHS = "armv7, armv7s, arm64, arm64e, x86_64";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Release;
+		};
+		215010492746BB6500D14090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5304290CE50DBC9E9AF772EF /* Pods-LotalabsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F35N7Y2332;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lts.LotalabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lotalabs.app/Lotalabs";
+			};
+			name = Debug;
+		};
+		2150104A2746BB6500D14090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D42AE76EC4A44032440BAD31 /* Pods-LotalabsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F35N7Y2332;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lts.LotalabsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lotalabs.app/Lotalabs";
+			};
+			name = Release;
+		};
+		2150104C2746BB6500D14090 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C79871D053401F268B0E87 /* Pods-Lotalabs-LotalabsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F35N7Y2332;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lts.LotalabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lotalabs;
+			};
+			name = Debug;
+		};
+		2150104D2746BB6500D14090 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA02724875FDEFA19E01EED9 /* Pods-Lotalabs-LotalabsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F35N7Y2332;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lts.LotalabsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lotalabs;
+			};
+			name = Release;
+		};
+		21DD950A277CA76B004D6B05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F35N7Y2332;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotiService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotiService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lts01.Lotalabs.NotiService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = noti_profile;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21DD950B277CA76B004D6B05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F35N7Y2332;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotiService/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotiService;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Lts01.Lotalabs.NotiService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = noti_profile;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		215010162746BB6400D14090 /* Build configuration list for PBXProject "Lotalabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215010432746BB6500D14090 /* Debug */,
+				215010442746BB6500D14090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		215010452746BB6500D14090 /* Build configuration list for PBXNativeTarget "Lotalabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215010462746BB6500D14090 /* Debug */,
+				215010472746BB6500D14090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		215010482746BB6500D14090 /* Build configuration list for PBXNativeTarget "LotalabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215010492746BB6500D14090 /* Debug */,
+				2150104A2746BB6500D14090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2150104B2746BB6500D14090 /* Build configuration list for PBXNativeTarget "LotalabsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2150104C2746BB6500D14090 /* Debug */,
+				2150104D2746BB6500D14090 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21DD9509277CA76B004D6B05 /* Build configuration list for PBXNativeTarget "NotiService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21DD950A277CA76B004D6B05 /* Debug */,
+				21DD950B277CA76B004D6B05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 215010132746BB6400D14090 /* Project object */;
+}
